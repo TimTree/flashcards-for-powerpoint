@@ -6,7 +6,7 @@
 <a href="https://github.com/timtree/flashcards-for-powerpoint/releases/latest"><strong>Download Latest Release</strong></a>
 </p>
 
-![v1.2 download count](https://img.shields.io/github/downloads/timtree/flashcards-for-powerpoint/total.svg) + 171**
+![Total download count](https://img.shields.io/github/downloads/timtree/flashcards-for-powerpoint/total.svg) + 171**
 
 This is the GitHub repo for Flashcards for PowerPoint. Here, you can view the download count, check the project's VBA code, or download the latest version in the Releases page.
 
@@ -23,8 +23,9 @@ Flashcards for PowerPoint is licensed under a [**Creative Commons Attribution 4.
 <hr>
 ** I tracked 171 downloads on goo.gl before the service shut down on March 2019. The download breakdown is as follows:
 <br><br>
-<ul>
-    <li><b>v1.0:</b> 57 downloads</li>
-    <li><b>v1.1/v1.1.1:</b> 94 downloads</li>
-    <li><b>Flashcards PPT Example (v1.0-v1.1.1):</b> 20 downloads
-</ul>
+
+| Version     | Downloads   |
+| ----------- | ----------- |
+| v1.0        | 57          |
+| v1.1/v1.1.1 | 94          |
+| Flashcards PPT Example (v1.0-v1.1.1)       | 20          |
