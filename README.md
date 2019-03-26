@@ -2,7 +2,7 @@
 <img src="./FlashcardsPPTLogo.png" alt="Flashcards for PowerPoint" width="560">
 </p>
 
-<p align="center" style="font-size:24px;">
+<p align="center">
 <a href="https://github.com/timtree/flashcards-for-powerpoint/releases/latest"><strong>Download Latest Release</strong></a>
 </p>
 
