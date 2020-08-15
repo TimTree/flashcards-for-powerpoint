@@ -8,9 +8,9 @@
 
 ![Total download count](https://img.shields.io/github/downloads/timtree/flashcards-for-powerpoint/total.svg) + 171**
 
-This is the GitHub repo for Flashcards for PowerPoint. Here, you can view the download count, check the project's VBA code, or download the latest version in the Releases page.
+This is the GitHub repo for Flashcards for PowerPoint. Here, you can view the download count, check the project's VBA (`Module1.bas`), or download the latest version on the Releases page.
 
-[Click here for the project page on my site.](https://www.gamesbytim.com/2018/02/flashcards-for-powerpoint.html)
+[Click here for the project page on my site.](https://www.gamesbytim.com/flashcards-for-powerpoint/)
 
 ## Reporting Bugs
 You can either report bugs on my Website's project page or on GitHub Issues. In your report, please let me know what version of PowerPoint you're using.
