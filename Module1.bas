@@ -10,7 +10,7 @@ Sub editCategory(oClickedShape As Shape)
         End If
     Next
     sText = InputBox("Type the study topic:", "Set Up Study Topic", oSh.TextFrame.TextRange.Text)
-    If sText = "" Then
+    If Len(sText) = 0 Then
     Else:
         oSh.TextFrame.TextRange.Text = sText
     End If
@@ -67,13 +67,13 @@ Sub BGChange(oClickedShape As Shape)
     oSh.Shadow.Transparency = 0.6
     Dim bgcolor As Long
     If oSh.Name = "Green" Then
-        bgcolor = RGB(155, 187, 89)
+        bgcolor = 5880731
     ElseIf oSh.Name = "Red" Then
-        bgcolor = RGB(192, 80, 77)
+        bgcolor = 5066944
     ElseIf oSh.Name = "Blue" Then
-        bgcolor = RGB(75, 172, 198)
+        bgcolor = 13020235
     Else:
-        bgcolor = RGB(128, 128, 128)
+        bgcolor = 8421504
     End If
     Dim i As Integer
     For i = 1 To ActivePresentation.Slides.Count
@@ -347,7 +347,7 @@ Sub resetAllCards()
         .Fill.Visible = msoFalse
         .Line.Visible = msoFalse
         .TextFrame.TextRange.Text = "Term 1"
-        .TextFrame.TextRange.Font.Color.RGB = RGB(0, 0, 0)
+        .TextFrame.TextRange.Font.Color.RGB = 0
         .TextFrame.TextRange.Font.Name = "Corbel"
         .TextFrame.TextRange.Font.Bold = True
         .TextFrame.TextRange.Font.Italic = False
@@ -364,7 +364,7 @@ Sub resetAllCards()
         .Fill.Visible = msoFalse
         .Line.Visible = msoFalse
         .TextFrame.TextRange.Text = "Definition 1"
-        .TextFrame.TextRange.Font.Color.RGB = RGB(0, 0, 0)
+        .TextFrame.TextRange.Font.Color.RGB = 0
         .TextFrame.TextRange.Font.Name = "Corbel"
         .TextFrame.TextRange.Font.Bold = False
         .TextFrame.TextRange.Font.Italic = False
